@@ -3,6 +3,16 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* add: display: flex; 
+     add: align-items: center;
+     add: justify-content: center; 
+     
+     this centers the red box horizontally and vertically using only flexbox
+  */
 }
 
 .box {
@@ -12,4 +22,11 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+  display: flex;
+  align-items: center;
 }
+
+/* add: display:flex;
+   add: align-items: center; 
+
+  this step is unnecessary for the solution but centers the text content as well */
